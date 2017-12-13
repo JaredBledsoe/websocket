@@ -2,7 +2,7 @@ var canvas = document.getElementsByTagName('canvas')[0];
 canvas.width = 400;
 canvas.height = 400;
 var ctx = canvas.getContext('2d');
-var socket = new WebSocket('ws://localhost:1337');
+var socket = new WebSocket();
 var id;
 var players = [];
 var keyStates = [];
