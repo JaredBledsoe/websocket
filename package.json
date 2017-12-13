@@ -1,12 +1,7 @@
-
-
 {
-  "name": "basic-networked-multiplayer-game",
+  "name": "ws-game",
   "version": "0.0.1",
-  "description": "A basic networked multiplayer game example/template, with lots of explanations.",
-  "dependencies": {
- 
-  },
+  "description": "Testing websocket game",
   "scripts": {
     "start": "server/server.js"
   },
