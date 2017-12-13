@@ -2,7 +2,7 @@ var canvas = document.getElementsByTagName('canvas')[0];
 canvas.width = 400;
 canvas.height = 400;
 var ctx = canvas.getContext('2d');
-var socket = new WebSocket({server});
+var socket = new WebSocket('https://bledsoews.herokuapp.com/');
 var id;
 var players = [];
 var keyStates = [];
