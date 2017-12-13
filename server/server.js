@@ -1,5 +1,5 @@
 const WebSocket = require('ws');
-const port = new WebSocket.Server();
+const port = new WebSocket.Server({server});
 var clients = [];
 var players = [];
 var updatedPlayers = [];
