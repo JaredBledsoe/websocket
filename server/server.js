@@ -1,5 +1,5 @@
 const WebSocket = require('ws');
-const port = new WebSocket.Server('https://bledsoews.herokuapp.com/');
+const port = new WebSocket.Server('https://bledsoews.herokuapp.com/:5000');
 var clients = [];
 var players = [];
 var updatedPlayers = [];
