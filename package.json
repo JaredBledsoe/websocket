@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Testing websocket game",
   "scripts": {
-    "start": "server/server.js"
+    "start": "node server/server.js"
   },
   "engines": {
     "node": "^6.11.2"
