@@ -1,14 +1,11 @@
-
-
 {
-  "name": "elegant-insults",
-  "version": "0.0.0",
-  "description": "Insult eachother in the most elegant of ways",
-  "main": "server/server.js",
-
- 
-  "author": "roman-sharf",
-  "license": "ISC",
-  "engines": {
-    "node": "6.11.2"
+  "name": "ws-game",
+  "version": "0.0.1",
+  "description": "Testing websocket game",
+  "scripts": {
+    "start": "server/server.js"
   },
+  "engines": {
+    "node": "^6.11.2",
+  }
+}
