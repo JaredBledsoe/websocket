@@ -1,5 +1,5 @@
 const WebSocket = require('ws');
-
+var host = location.origin.replace(/^http/, 'ws');
 const port = new WebSocket.Server(host);
 var clients = [];
 var players = [];
