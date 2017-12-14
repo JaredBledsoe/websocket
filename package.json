@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Testing websocket game",
   "dependencies": {
-  "express": "4.16.2",
+  "express": "4.16.2"
   },
   "scripts": {
     "start": "node server/server.js"
