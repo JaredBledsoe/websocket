@@ -6,9 +6,9 @@
     "start": "server/server.js"
   },
   "dependencies": {
-  	"express": "4.15.5",
+  	"express": "4.15.5"
   },
   "engines": {
-    "node": "^6.9.1",
+    "node": "^6.9.1"
   }
 }
