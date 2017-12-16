@@ -1,12 +1,14 @@
 {
   "name": "ws-game",
   "version": "0.0.1",
-  "description": "Testing websocket game",
-
+  "description": "A basic networked multiplayer game example/template, with lots of explanations.",
   "scripts": {
-    "start": "node server/server.js"
+    "start": "server/server.js"
+  },
+  "dependencies": {
+  	"express": "4.15.5",
   },
   "engines": {
-    "node": "^6.11.2"
+    "node": "^6.9.1",
   }
 }
