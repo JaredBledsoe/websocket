@@ -3,8 +3,10 @@ canvas.width = 400;
 canvas.height = 400;
 var ctx = canvas.getContext('2d');
 
+var HOST = location.origin.replace(/^http/, 'ws')
+var socket = new WebSocket(HOST);
 
-var socket = new WebSocket('https://bledsoews.herokuapp.com:1337');
+//var socket = new WebSocket('https://bledsoews.herokuapp.com:1337');
 var id;
 var players = [];
 var keyStates = [];
