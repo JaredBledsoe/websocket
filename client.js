@@ -2,11 +2,9 @@ var canvas = document.getElementsByTagName('canvas')[0];
 canvas.width = 400;
 canvas.height = 400;
 var ctx = canvas.getContext('2d');
-const server = express();
 
-var socket = new SocketServer({ server });
 
-//var socket = new WebSocket('https://bledsoews.herokuapp.com:1337');
+var socket = new WebSocket('https://bledsoews.herokuapp.com:1337');
 var id;
 var players = [];
 var keyStates = [];
