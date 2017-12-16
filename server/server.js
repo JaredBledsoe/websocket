@@ -1,5 +1,10 @@
+const server = express()
+  .use((req, res) => res.sendFile(INDEX) )
+  .listen(PORT, () => console.log(`Listening on ${ PORT }`));
 
-const port = new WebSocket.Server('https://bledsoews.herokuapp.com:1337');
+const port = new SocketServer({ server });
+
+//const port = new WebSocket.Server('https://bledsoews.herokuapp.com:1337');
 var clients = [];
 var players = [];
 var updatedPlayers = [];
